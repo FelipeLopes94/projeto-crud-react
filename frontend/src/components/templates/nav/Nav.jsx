@@ -1,11 +1,21 @@
 import React from 'react';
 import './Nav.css';
 
-const Nav =  () =>
+const Nav =  (props) =>
 
     <aside className="menu-area">
         
-        Navegacao
+        <nav className="menu">
+
+            <a href="#/users">
+                <i className="fa fa-home"> Inicio </i>
+            </a>
+
+            <a href="#/users">
+                <i className="fa fa-users"> Usuarios </i>
+            </a>
+
+        </nav>
 
     </aside>
 
