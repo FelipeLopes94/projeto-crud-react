@@ -1,4 +1,5 @@
 import React from 'react';
+import NavItem from './NavItem';
 import './Nav.css';
 
 const Nav =  (props) =>
@@ -7,13 +8,8 @@ const Nav =  (props) =>
         
         <nav className="menu">
 
-            <a href="#/users">
-                <i className="fa fa-home"> Inicio </i>
-            </a>
-
-            <a href="#/users">
-                <i className="fa fa-users"> Usuarios </i>
-            </a>
+            <NavItem title="Inicio" icon="home" link="/"/>
+            <NavItem title="Usuarios" icon="users" link="/users"/>
 
         </nav>
 

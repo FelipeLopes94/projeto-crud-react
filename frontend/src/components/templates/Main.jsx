@@ -5,17 +5,21 @@ import Header from './header/Header';
 
 const Main = (props) =>
 
-   <React.Fragment>
-       
-       <Header {...props}/>
+    <React.Fragment>
 
-        <main className="content">
+        <Header {...props} />
 
-            Conteudo
+        <main className="content container-fluid">
+
+            <div className="p-3 mt-3">
+
+                {props.children}
+
+            </div>
 
         </main>
 
 
-   </React.Fragment>
+    </React.Fragment>
 
 export default Main;
