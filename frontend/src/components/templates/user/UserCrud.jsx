@@ -62,6 +62,7 @@ export default class UserCrud extends Component {
     renderForm() {
         return (
             <div className="form">
+
                 <div className="row">
                     <div className="co-12 col-md-6">
                         <div className="form-group">
@@ -69,7 +70,7 @@ export default class UserCrud extends Component {
                             <input type="text"
                                 className="form-control"
                                 name="name"
-                                value={this.state.user.name}
+                                value={this.state.user.name || ''}
                                 onChange={e => this.setStateData(e)}
                                 placeholder="Digite o nome..."
                             />
@@ -81,7 +82,7 @@ export default class UserCrud extends Component {
                             <input type="text"
                                 className="form-control"
                                 name="email"
-                                value={this.state.user.email}
+                                value={this.state.user.email || ''}
                                 onChange={e => this.setStateData(e)}
                                 placeholder="Digite o email..."
                             />
@@ -92,6 +93,7 @@ export default class UserCrud extends Component {
                 <hr />
 
                 <div className="col-12 d-flex justify-content-end">
+
                     <button className="btn btn-primary"
                         onClick={e => this.save(e)}>
                         Salvar
@@ -108,17 +110,11 @@ export default class UserCrud extends Component {
         )
     }
 
-    teste() {
-        console.log(this.state.user)
-
-    }
-
     render() {
         return (
 
             <Main {...headerProps}>
                 {this.renderForm()}
-                <button className="btn-primary" onClick={() => this.teste()} >TESTE</button>
             </Main>
 
         )
