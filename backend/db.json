@@ -1,31 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Arthur Oliveira",
-      "email": "aoliveira@gmail.com"
-    },
-    {
-      "id": 2,
-      "name": "Maria Julia da Silva",
-      "email": "mjds@empresa.com"
-    },
-    {
-      "user": "",
-      "email": "",
-      "id": 3
-    },
-    {
-      "user": "",
-      "email": "",
-      "id": 4
-    },
-    {
-      "user": "",
-      "email": "",
-      "id": 5
-    },
-    {
       "user": "",
       "email": "teste1234@gmail.com",
       "name": "Teste Silva",
@@ -42,29 +17,6 @@
       "email": "teste19999@gmail.com",
       "name": "teste",
       "id": 8
-    },
-    {
-      "user": "",
-      "email": "333",
-      "name": "222",
-      "id": 9
-    },
-    {
-      "user": "",
-      "email": "aaaa",
-      "id": 10
-    },
-    {
-      "user": "",
-      "email": "",
-      "name": "aaa",
-      "id": 11
-    },
-    {
-      "user": "",
-      "email": "aaa",
-      "name": "aaaa",
-      "id": 12
     }
   ]
 }
