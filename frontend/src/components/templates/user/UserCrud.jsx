@@ -140,6 +140,7 @@ export default class UserCrud extends Component {
                 </thead>
                 <tbody>
                     {this.renderRows()}
+                   
                 </tbody>
             </table>
         )
